@@ -1,3 +1,33 @@
+GitHub Repository Portfolio App
+
+This GitHub Repository Portfolio App is a web application built using React.js and Chakra UI. It allows users to view their GitHub repositories, navigate through the repository list with pagination, search for repositories, and filter them based on criteria like name, description, and language.
+
+Navigation
+The application consists of two main pages:
+
+Repository List: Displays a paginated list of GitHub repositories. Users can search for repositories and filter them based on name, description, or language. Pagination controls allow users to navigate through the repository list.
+Repository Detail: Shows detailed information about a selected repository when clicked from the repository list.
+How We Created It
+Technologies Used
+React.js: Frontend JavaScript library for building user interfaces.
+Chakra UI: Component library for building accessible and themeable React applications.
+Axios: Promise-based HTTP client for making API requests.
+Steps Taken
+Fetching Repositories: We used the GitHub API to fetch the user's repositories and displayed them on the Repository List page.
+Pagination: Implemented pagination to display a limited number of repositories per page and provided controls to navigate between pages.
+Search and Filter: Added functionality to search for repositories and filter them based on name, description, or language.
+Routing: Used React Router to handle navigation between the Repository List and Repository Detail pages.
+Styling: Applied Glassmorphism design to enhance the UI and provide a sleek look and feel.
+Error Handling: Implemented an Error Boundary component to catch and display errors in the application.
+404 Page: Created a custom 404 page to handle routes that do not exist.
+Accessibility: Ensured accessibility techniques were applied to make the application usable for everyone.
+How to Run
+Clone this repository to your local machine.
+Navigate to the project directory in your terminal.
+Install dependencies using npm install.
+Start the development server using npm start.
+Open your browser and navigate to http://localhost:3000 to view the application.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
